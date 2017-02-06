@@ -13,6 +13,7 @@ public class TCPSocketClient {
 		client.communicate();
 	}
 
+	
 	public void communicate() {
 		try {
 			Socket socket = new Socket("localhost", 4545);
